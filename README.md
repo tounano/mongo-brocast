@@ -8,7 +8,11 @@ This implementation is `EventStore` compatible, as you can subscribe to past eve
 
 ## Usage
 
-### var pubsub = new MubSub(db, opts)
+```js
+  var Brocast = require('mongo-brocast').Brocast;
+```
+
+### var pubsub = new Brocast(db, opts)
 
 **Args:**
 
